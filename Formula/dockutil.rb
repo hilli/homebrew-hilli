@@ -5,7 +5,7 @@ class Dockutil < Formula
   sha256 "8d0117fccd836a14782107bdd3619df17dd4708470e3522f5b2ab0456769ba79"
   license "Apache-2.0"
   pour_bottle? do
-    reason "I can put files in the homebrew cache"
+    reason "I can not put files in the homebrew bottle cache"
     satisfy { false }
   end
 
