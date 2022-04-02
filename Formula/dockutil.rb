@@ -6,7 +6,7 @@ class Dockutil < Formula
   license "Apache-2.0"
   pour_bottle? do
     reason "I can put files in the homebrew cache"
-    satisfy false
+    satisfy { false }
   end
 
   livecheck do
