@@ -12,7 +12,7 @@ cask "native-access" do
     strategy :header_match
   end
 
-  depends_on macos: ">= :high_sierra"
+  depends_on :macos
 
   app "Native Access.app"
 
